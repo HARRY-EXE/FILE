@@ -1,30 +1,8 @@
-import platform
-import os
-import requests
-
-global arc
-
-print(f' •\x1b[38;5;196m ->\x1b[37m CHECKING FOR UPDATES ')
-os.system('git pull --quiet')
-
-def check_python_architecture():
-    global arc
-    architecture = platform.architecture()
-    if architecture[0] == '32bit':
-        arc = "32BIT"
-        print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
-        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING FILE TOOL ')
-        import FILE32
-        FILE32.main()
-    elif architecture[0] == '64bit':
-        arc = "64BIT"
-        import FILE64
-        FILE64.main()
-        print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
-        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING FILE TOOL ')
-    else:
-        arc = "INVALID"
-
-
-if __name__ == "__main__":
-    check_python_architecture()
+import platform,os
+bit = platform.architecture()[0]
+print(' CHECKING FOR UPDATES');os.system('git pull')
+if bit == '32bit':
+    import FILE32
+elif bit == '64bit':
+    import FILE64
+else: exit(" SORRY YOUR DEVICE DOESN'T SUPPORT THIS TOOL USE 32/64 BIT PHONE");exit()
