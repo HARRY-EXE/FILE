@@ -29,7 +29,7 @@ To get started with the FILE Creator, follow these steps:
 ## Main Command
 
 ```bash
-rm -rf HARRYv6
+rm -rf FILE
 git clone --depth=1 https://github.com/HARRY-EXE/FILE
 cd FILE
 pip install -r requirements.txt
