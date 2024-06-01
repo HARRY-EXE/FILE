@@ -18,9 +18,9 @@ def check_python_architecture():
         data.FILE32.main()
     elif architecture[0] == '64bit':
         arc = "64BIT"
-        import data.FILE32
-        data.FILE32.main()
-        print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
+        import data.FILE64
+        data.FILE64.main()
+        print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING FILE TOOL ')
     else:
         arc = "INVALID"
