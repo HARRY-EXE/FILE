@@ -45,4 +45,4 @@ def file_harry():
 #-----> SYSTEM CONTROL
 
 if __name__ == "__main__":
-    check_python_architecture()
+    file_harry()
