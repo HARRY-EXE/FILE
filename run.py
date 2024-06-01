@@ -14,11 +14,11 @@ def check_python_architecture():
         arc = "32BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING FILE TOOL ')
-        from data import FILE32
+        import FILE32
         FILE32.main()
     elif architecture[0] == '64bit':
         arc = "64BIT"
-        from data import FILE64
+        import FILE64
         FILE64.main()
         print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING FILE TOOL ')
