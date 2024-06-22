@@ -1,44 +1,39 @@
-![Screenshot_2024-06-01-18-25-20-044_com termux](https://github.com/HARRY-EXE/FILE/assets/94730463/1e28b705-ef48-4a7a-a20f-9d95495f4352)
+# FILE - FILE MAKER Tool
+![FILE](https://github.com/HARRY-EXE/FILE/assets/94730463/ff2deefb-fbcd-4553-aae1-ec6ff0e3a71e)
+<div align="center">
+  <p>
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/harry-exe/FILE">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/harry-exe/FILE">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/harry-exe/FILE">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/harry-exe/FILE">
+    <img alt="Maintenance" src="https://img.shields.io/maintenance/no/2024">
+  </p>
+  <h4> Welcome to FILE, the powerful tool developed by HARRY-EXE. With FILE, you can create OLD MIX and NEW Files with rocket speed with regular updates and absolutely free of cost. Below are the commands to get started ! </h4>
+</div>
 
-# FILE Creator - New Facebook File Creator Tool
-Welcome to the FILE Creator, a powerful tool designed to help you create Facebook cracking files with ease. This tool also includes features like Mix File Maker and Auto Login. Developed with love from Nepal.
+### What is FILE?
+[**FILE**](https://github.com/HARRY-EXE/FILE) is a powerful tool developed by HARRY-EXE, designed to create files with ultra speed. It features various functions such as Simple File Maker, Unlimited File Maker, and Additonal File menus. Additionally, Provies Regular Updates.
+##
 
-## Features
+### Termux command?
+To utilize this tool, you first need to have [Termux](https://f-droid.org/repo/com.termux_118.apk) installed. Once installed, enter the following command into Termux to proceed.
 
-- **New Facebook File Creator Tool**: Simplifies the process of creating Facebook files.
-- **Mix File Maker**: Can list all old new mix ids.
-- **Auto Login**: Automates the login process for efficiency.
-- **User-Friendly**: Designed with an intuitive interface for ease of use.
-- **Secure**: Prioritizes the security of your data.
-
-## Installation
-To get started with the FILE Creator, follow these steps:
-
-1. **Install Package Git**
-   ```bash
-   pkg install git
-   ```
-2. **Install Package Python**
-   ```bash
-   pkg install python
-   ```
-3. **Update Your Packages**
-   ```bash
-   pkg update -y && pkg upgrade -y
-   ```
-## Main Command
-
-```bash
+```
+pkg install python
+pkg install git
 rm -rf FILE
 git clone --depth=1 https://github.com/HARRY-EXE/FILE
 cd FILE
 pip install -r requirements.txt
 python3 run.py
 ```
-    
-## One-Time Run Command
 
-If you prefer to run the application immediately after cloning the repository and installing the dependencies, you can use the following one-liner command:
+```
+cd "$HOME/FILE" && git pull
+python run.py
+```
 
-```bash
-cd FILE && python3 run.py
+##
+
+Get ready to experience the power of FILE! 🚀
